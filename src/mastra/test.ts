@@ -1,5 +1,5 @@
-import { generalAgent } from "./agents/general-agent";
+// import { generalAgent } from "./agents/general-agent";
 
-const result = await generalAgent.generate("hello");
+// const result = await generalAgent.generate("hello");
 
-console.log(result);
+// console.log(result);

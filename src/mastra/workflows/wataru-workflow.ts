@@ -47,8 +47,8 @@ const wataruWorkflow = createWorkflow({
 
 wataruWorkflow.commit();
 
-const run = await wataruWorkflow.createRun();
-const result = await run.start({
-  inputData: { query: "hello" },
-});
-console.log(result.steps["analyze-query"]);
+// const run = await wataruWorkflow.createRun();
+// const result = await run.start({
+//   inputData: { query: "hello" },
+// });
+// console.log(result.steps["analyze-query"]);
